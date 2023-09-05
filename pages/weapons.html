@@ -9,46 +9,54 @@
 <body>
     <h1>Weapons Page in PROGRESS</h1>
     <h2>Search for a Weapon</h2>
-    <form action="home.html" method="get">
+    <form>
         <div>
-            <label for="weaponType">Name</label>
-            <input type="text" name="weaponType" id="weaponTypeInput">
+            <label class="optionLabel" for="weaponName">Weapon Name</label><br>
+            <input type="text" onkeyup="search_weapon()" name="search" id="weaponName">
         </div>
         <br>
         <div>
-            <label for="simpleMartial" id="typeLabel">Simple or Martial:</label>
+            <label class="optionLabel" for="simpleMartial" id="typeLabel">Simple or Martial:</label><br>
                 <label for="simpleWeapon">Simple</label>
-                    <input type="radio" name="simpleWeapon" id="simpleWeapon">
+                    <input type="radio" class="radio" name="simpleWeapon" id="simpleWeapon">
                 <label for="martialWeapon">Martial</label>
-                    <input type="radio" name="martialWeapon" id="martialWeapon">
+                    <input type="radio" class="radio" name="martialWeapon" id="martialWeapon">
         </div>
         <br>
         <div>
-            <label for="thrownProperty" id="thownLabel">Thrown Property:</label>
+            <label class="optionLabel" for="thrownProperty" id="thownLabel">Thrown Property:</label><br>
             <label for="yesThrown">Yes</label>
-                    <input type="radio" name="yesThrown" id="yesThrown">
+                    <input type="radio" class="radio" name="yesThrown" id="yesThrown">
                 <label for="noThrown">No</label>
-                    <input type="radio" name="noThrown" id="noThrown">
+                    <input type="radio" class="radio" name="noThrown" id="noThrown">
         </div>
         <br> 
         <div>
-            <label for="finesseProperty">Finesse Property:</label>
+            <label class="optionLabel" for="finesseProperty">Finesse Property:</label><br>
             <label for="yesFinesse">Yes</label>
-                    <input type="radio" name="yesFinesse" id="yesFinesse">
+                    <input type="radio" class="radio" name="yesFinesse" id="yesFinesse">
                 <label for="noFinesse">No</label>
-                    <input type="radio" name="noFinesse" id="noFinesse">
+                    <input type="radio" class="radio" name="noFinesse" id="noFinesse">
         </div>
         <br>        
         <div>
-            <label for="lightProperty">Light Property:</label>
+            <label class="optionLabel" for="lightProperty">Light Property:</label><br>
             <label for="yesLight">Yes</label>
-                    <input type="radio" name="yesLight" id="yesLight">
+                    <input type="radio" class="radio" name="yesLight" id="yesLight">
                 <label for="noLight">No</label>
-                    <input type="radio" name="noLight" id="noLight">
+                    <input type="radio" class="radio" name="noLight" id="noLight">
         </div>
         <br>
         <div>
             <button class="button" id="searchButton">Search</button>
         </div>
     </form>
+
+    <ul id="list-holder">
+
+    </ul>
+
+
+
+</body>
 </html>

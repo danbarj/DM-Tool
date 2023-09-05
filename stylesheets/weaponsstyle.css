@@ -5,16 +5,31 @@ body {
     align-items: center;
     background-attachment: fixed;
 }
+
 h1 {
     color: white;
 }
+
 h2 {
     color: aliceblue;
     text-decoration: underline;
 }
-.button {
-    
-}
+
 label {
     color: aliceblue;
 }
+
+form {
+    display: block;
+    scale: 90%;
+    background-color: burlywood;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+.optionLabel {
+    font: bolder;
+    font-size: xx-large;
+    color: black;
+}
+
