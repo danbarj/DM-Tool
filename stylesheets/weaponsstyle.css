@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(darkred, navy) ;
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: aliceblue;
+    text-decoration: underline;
+}
+.button {
+    
+}
+label {
+    color: aliceblue;
+}

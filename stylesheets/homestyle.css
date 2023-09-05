@@ -1,0 +1,29 @@
+body {
+    background-color: #1c1b1b;
+}
+
+h1 {
+    color: darkred;
+    position: sticky;
+    text-align: center;
+}
+#d20png {
+    scale: 75%;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#d20png:hover{
+    transform: scale(1.1);
+}
+
+.medium {
+    color: rgba(170, 5, 5, 0.815);
+    text-align: center;
+}
+.small {
+    color: white;
+    text-align: center;
+}

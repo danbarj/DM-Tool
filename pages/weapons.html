@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM Tool Weapons</title>
+    <link rel="stylesheet" href="/stylesheets/weaponsstyle.css">
+</head>
+<body>
+    <h1>Weapons Page in PROGRESS</h1>
+    <h2>Search for a Weapon</h2>
+    <form action="home.html" method="get">
+        <div>
+            <label for="weaponType">Name</label>
+            <input type="text" name="weaponType" id="weaponTypeInput">
+        </div>
+        <br>
+        <div>
+            <label for="simpleMartial" id="typeLabel">Simple or Martial:</label>
+                <label for="simpleWeapon">Simple</label>
+                    <input type="radio" name="simpleWeapon" id="simpleWeapon">
+                <label for="martialWeapon">Martial</label>
+                    <input type="radio" name="martialWeapon" id="martialWeapon">
+        </div>
+        <br>
+        <div>
+            <label for="thrownProperty" id="thownLabel">Thrown Property:</label>
+            <label for="yesThrown">Yes</label>
+                    <input type="radio" name="yesThrown" id="yesThrown">
+                <label for="noThrown">No</label>
+                    <input type="radio" name="noThrown" id="noThrown">
+        </div>
+        <br> 
+        <div>
+            <label for="finesseProperty">Finesse Property:</label>
+            <label for="yesFinesse">Yes</label>
+                    <input type="radio" name="yesFinesse" id="yesFinesse">
+                <label for="noFinesse">No</label>
+                    <input type="radio" name="noFinesse" id="noFinesse">
+        </div>
+        <br>        
+        <div>
+            <label for="lightProperty">Light Property:</label>
+            <label for="yesLight">Yes</label>
+                    <input type="radio" name="yesLight" id="yesLight">
+                <label for="noLight">No</label>
+                    <input type="radio" name="noLight" id="noLight">
+        </div>
+        <br>
+        <div>
+            <button class="button" id="searchButton">Search</button>
+        </div>
+    </form>
+</html>
